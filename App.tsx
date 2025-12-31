@@ -1,3 +1,4 @@
+
 import React, { useState, useMemo, useEffect } from 'react';
 import { LayoutGrid, Image as ImageIcon, Video, Wand2, Database, Search, Plus, Loader2, HardDrive, AlertTriangle, Settings, FilePlus, Lightbulb, FileText } from 'lucide-react';
 import { CATEGORIES, CategoryType, PromptItem } from './types';
@@ -160,7 +161,6 @@ const App: React.FC = () => {
                       </div>
                    )}
                  </div>
-                 <p className="text-[10px] text-gray-500 font-medium tracking-wider uppercase">Vault v2.0</p>
                </div>
              </div>
              <button onClick={() => setIsSettingsOpen(true)} className="md:hidden p-2 text-gray-500">
